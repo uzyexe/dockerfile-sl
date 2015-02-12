@@ -1,4 +1,4 @@
-# uzyexe/sl
+# uzyexe/sl-demo
 
 ## What is sl
 
@@ -15,7 +15,7 @@ This Docker image is based on the Official [debian:wheezy](https://registry.hub.
 ## How to use this image
 
 ```
-docker run --name sl -d -p 80:8000 uzyexe/sl
+docker run --name sl -d -p 80:8000 uzyexe/sl-demo
 ```
 
 Then you can run ```http://localhost``` or ```http://host-ip``` in your browser.
