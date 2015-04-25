@@ -1,7 +1,5 @@
 FROM debian:squeeze
 
-ENV VERSION 3.1.0
-
 RUN apt-get update -qq && \
     apt-get install -qy git-core python && \
     apt-get clean all && \
