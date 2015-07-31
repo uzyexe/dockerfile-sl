@@ -18,7 +18,7 @@ This Docker image is based on the Official [alpine:3.2](https://registry.hub.doc
 docker run --name sl -d -p 8080:8080 uzyexe/sl
 ```
 
-Then you can run ```http://localhost``` or ```http://host-ip``` in your browser.
+Then you can run ```http://localhost:8080``` or ```http://host-ip:8080``` in your browser.
 
 ## Image
 
