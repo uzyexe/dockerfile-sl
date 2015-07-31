@@ -22,4 +22,4 @@ Then you can run ```http://localhost:8080``` or ```http://host-ip:8080``` in you
 
 ## Image
 
-![img](https://github.com/uzyexe/dockerfile-sl/blob/master/sl.png)
+![img](https://github.com/uzyexe/dockerfile-sl/blob/master/sl.png?raw=true)
