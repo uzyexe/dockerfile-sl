@@ -1,4 +1,4 @@
-# uzyexe/sl-demo
+# uzyexe/sl
 
 ## What is sl
 
@@ -10,12 +10,16 @@ https://github.com/mtoyoda/sl
 
 [**Trusted Build**](https://registry.hub.docker.com/u/uzyexe/sl/)
 
-This Docker image is based on the Official [debian:wheezy](https://registry.hub.docker.com/u/dockerfile/debian/) base image.
+This Docker image is based on the Official [alpine:3.2](https://registry.hub.docker.com/_/alpine/) base image.
 
 ## How to use this image
 
 ```
-docker run --name sl -d -p 8000:8000 uzyexe/sl-demo
+docker run --name sl -d -p 8080:8080 uzyexe/sl
 ```
 
 Then you can run ```http://localhost``` or ```http://host-ip``` in your browser.
+
+## Image
+
+![img](./sl.png)
