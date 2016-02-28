@@ -7,7 +7,9 @@ RUN apk add --update git python && \
     adduser -S -s /bin/sh -u 5000 -G nobody -D -h /home/sl sl && \
     git clone https://github.com/kjunichi/sl.git /opt/sl && \
     mv /opt/sl/sl.html /opt/sl/index.html && \
-    chown sl -R /opt/sl
+    chown sl -R /opt/sl && \
+    apk del --purge git && \
+    rm -rf /var/cache/apk/*
 
 USER sl
 WORKDIR /opt/sl
