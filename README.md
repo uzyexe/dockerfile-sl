@@ -23,3 +23,11 @@ Then you can run ```http://localhost:8080``` or ```http://host-ip:8080``` in you
 ## Image
 
 ![img](https://github.com/uzyexe/dockerfile-sl/blob/master/sl.png?raw=true)
+
+# Authors
+
+* Shuji Yamada (<uzy.exe@gmail.com>)
+
+## License
+
+This project is licensed under the terms of the MIT license.
