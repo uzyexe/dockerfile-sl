@@ -4,13 +4,11 @@
 
 sl − display animations aimed to correct users who accidentally enter sl instead of ls.
 
-https://github.com/mtoyoda/sl
-
 ## Dockerfile
 
 [**Trusted Build**](https://registry.hub.docker.com/u/uzyexe/sl/)
 
-This Docker image is based on the Official [alpine:3.2](https://registry.hub.docker.com/_/alpine/) base image.
+This Docker image is based on the Official [alpine:3.3](https://registry.hub.docker.com/_/alpine/) base image.
 
 ## How to use this image
 
@@ -30,4 +28,5 @@ Then you can run ```http://localhost:8080``` or ```http://host-ip:8080``` in you
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
+https://github.com/mtoyoda/sl
