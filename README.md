@@ -8,7 +8,7 @@ sl − display animations aimed to correct users who accidentally enter sl inste
 
 [**Trusted Build**](https://registry.hub.docker.com/u/uzyexe/sl/)
 
-This Docker image is based on the Official [alpine:3.3](https://registry.hub.docker.com/_/alpine/) base image.
+This Docker image is based on the Official [alpine:3.4](https://registry.hub.docker.com/_/alpine/) base image.
 
 ## How to use this image
 
